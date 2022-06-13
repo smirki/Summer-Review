@@ -1,0 +1,52 @@
+body {
+    background-size: contain;
+    background-image: url(https://handluggageonly.co.uk/wp-content/uploads/2017/07/HandLuggageOnly-10-4.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+.menu {
+    width: 80%;
+    background-color: rgb(255, 246, 252);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 25px;
+
+}
+
+.tiny {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+.item p { 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.variation {
+    text-align: left;
+}
+
+.price {
+    text-align: right;
+}
+
