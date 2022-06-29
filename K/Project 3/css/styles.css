@@ -1,0 +1,61 @@
+* {
+    /* tells the browser to account for any border and padding in the values you set */
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #EBE7E7;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+    background: #E0DDDD;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px
+}
+
+#gallery img {
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 10px #636369);
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+    #gallery img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
